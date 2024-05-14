@@ -1,0 +1,11 @@
+.divider {
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 0.1px;
+    margin: 8px;
+  }

@@ -1,0 +1,42 @@
+div.articleObj h1 {
+  @apply text-4xl font-extrabold tracking-tight lg:text-5xl;
+}
+
+div.articleObj h2 {
+  @apply border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0;
+}
+
+div.articleObj h3 {
+  @apply text-2xl font-semibold tracking-tight;
+}
+
+div.articleObj h4 {
+  @apply text-xl font-semibold tracking-tight;
+}
+
+div.articleObj h5 {
+  @apply text-lg font-semibold;
+}
+
+div.articleObj h6 {
+  @apply text-sm font-medium leading-none;
+}
+
+div.articleObj p {
+  @apply leading-7 [&:not(:first-child)]:mt-6;
+}
+
+div.articleObj blockquote {
+  @apply mt-6 border-l-2 pl-6 italic;
+}
+
+div.articleObj code {
+  @apply rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
+}
+
+
+
+.ce-block__content, 
+.ce-toolbar__content {
+ max-width: 1000px;  /* example value, adjust for your own use case */
+}
